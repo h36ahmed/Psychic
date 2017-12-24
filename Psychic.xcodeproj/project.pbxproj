@@ -12,6 +12,9 @@
 		E45FBF351FEF84530026EFBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45FBF331FEF84530026EFBB /* Main.storyboard */; };
 		E45FBF371FEF84530026EFBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45FBF361FEF84530026EFBB /* Assets.xcassets */; };
 		E45FBF3A1FEF84530026EFBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45FBF381FEF84530026EFBB /* LaunchScreen.storyboard */; };
+		E45FBF421FF0256B0026EFBB /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45FBF411FF0256B0026EFBB /* CardViewController.swift */; };
+		E45FBF441FF030D90026EFBB /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45FBF431FF030D90026EFBB /* GradientView.swift */; };
+		E45FBF461FF03E110026EFBB /* PhantomFromSpace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E45FBF451FF03E110026EFBB /* PhantomFromSpace.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		E45FBF361FEF84530026EFBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E45FBF391FEF84530026EFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E45FBF3B1FEF84530026EFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E45FBF411FF0256B0026EFBB /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		E45FBF431FF030D90026EFBB /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		E45FBF451FF03E110026EFBB /* PhantomFromSpace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PhantomFromSpace.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +62,10 @@
 			children = (
 				E45FBF2F1FEF84530026EFBB /* AppDelegate.swift */,
 				E45FBF311FEF84530026EFBB /* ViewController.swift */,
+				E45FBF451FF03E110026EFBB /* PhantomFromSpace.mp3 */,
+				E45FBF431FF030D90026EFBB /* GradientView.swift */,
 				E45FBF331FEF84530026EFBB /* Main.storyboard */,
+				E45FBF411FF0256B0026EFBB /* CardViewController.swift */,
 				E45FBF361FEF84530026EFBB /* Assets.xcassets */,
 				E45FBF381FEF84530026EFBB /* LaunchScreen.storyboard */,
 				E45FBF3B1FEF84530026EFBB /* Info.plist */,
@@ -124,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E45FBF3A1FEF84530026EFBB /* LaunchScreen.storyboard in Resources */,
+				E45FBF461FF03E110026EFBB /* PhantomFromSpace.mp3 in Resources */,
 				E45FBF371FEF84530026EFBB /* Assets.xcassets in Resources */,
 				E45FBF351FEF84530026EFBB /* Main.storyboard in Resources */,
 			);
@@ -138,6 +148,8 @@
 			files = (
 				E45FBF321FEF84530026EFBB /* ViewController.swift in Sources */,
 				E45FBF301FEF84530026EFBB /* AppDelegate.swift in Sources */,
+				E45FBF441FF030D90026EFBB /* GradientView.swift in Sources */,
+				E45FBF421FF0256B0026EFBB /* CardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
